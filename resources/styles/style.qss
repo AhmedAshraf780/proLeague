@@ -1,0 +1,104 @@
+/* Catppuccin-based color scheme */
+QMainWindow {
+    background-color: #1E1E2E;
+    color: #CDD6F4;
+}
+
+QWidget {
+    background-color: #1E1E2E;
+    color: #CDD6F4;
+}
+
+QPushButton {
+    background-color: #313244;
+    color: #CDD6F4;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    min-width: 100px;
+}
+
+QPushButton:hover {
+    background-color: #45475A;
+}
+
+QPushButton:pressed {
+    background-color: #585B70;
+}
+
+QLabel {
+    color: #CDD6F4;
+    font-size: 14px;
+}
+
+QLabel#menuTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+QLineEdit {
+    background-color: #313244;
+    color: #CDD6F4;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+}
+
+QLineEdit:focus {
+    border: 2px solid #89B4FA;
+}
+
+QMessageBox {
+    background-color: #1E1E2E;
+    color: #CDD6F4;
+}
+
+QMessageBox QPushButton {
+    min-width: 80px;
+}
+
+QMenuBar {
+    background-color: #181825;
+    color: #CDD6F4;
+}
+
+QMenuBar::item {
+    background-color: transparent;
+    padding: 5px 10px;
+}
+
+QMenuBar::item:selected {
+    background-color: #313244;
+}
+
+QStatusBar {
+    background-color: #181825;
+    color: #CDD6F4;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background-color: #313244;
+    width: 10px;
+    margin: 0;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #45475A;
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0;
+    background: none;
+}
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    background: none;
+} 
